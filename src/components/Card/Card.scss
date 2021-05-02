@@ -1,0 +1,11 @@
+@import '../../styles/mixins/common.scss';
+
+.card {
+  background-color: aliceblue;
+  height: $card-height;
+  border: 1px solid $secondary-color;
+  border-radius: $border-radius;
+  padding: $card-padding;
+  overflow: hidden;
+  white-space: nowrap;
+}
